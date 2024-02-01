@@ -96,6 +96,21 @@ delete anything in the function and create a h1 tag and type Codin 1 to display.
 
 in terminal type docker build -t react .
 
+after doing so you can run the image in the docker desktop and it will create a container. here you can bind your port running a new container and pressing on more options
+
+enter port 7775
+
+run the container and it should generate
+
+'''
+2024-02-01 11:23:33   VITE v5.0.12  ready in 504 ms
+2024-02-01 11:23:33 
+2024-02-01 11:23:33   ➜  Local:   http://localhost:5173/
+2024-02-01 11:23:33   ➜  Network: http://172.17.0.2:5173/
+'''
+
+control click or cmd click on the local host and it will open up a tab. in the search bar it will say localhost:5173 replace this with localhost:7775 to view the created image
+
 
 
 
